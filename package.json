@@ -1,0 +1,25 @@
+{
+  "name": "sensor-dataset-collector",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Lrfith/sensor-dataset-collector#readme",
+  "bugs": {
+    "url": "https://github.com/Lrfith/sensor-dataset-collector/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lrfith/sensor-dataset-collector.git"
+  },
+  "license": "ISC",
+  "author": "Lake",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
