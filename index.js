@@ -8,7 +8,7 @@ async function startApp() {
         await model_trainer();
         console.log('Model Trainer completed');
         
-        await server();
+        server();
         console.log('Server started');
         
         await syncFirebaseToMongo();
