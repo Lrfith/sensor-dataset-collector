@@ -7,6 +7,9 @@ const cors = require('cors');
 // server function
 async function server() {
     const app = express();
+
+    let PORT = process.env.PORT || 5000;
+
     app.use(cors());
     
     // MongoDB connection URI
@@ -42,7 +45,7 @@ async function server() {
       
     
     // Start the server
-    app.listen(5000, () => {
+    app.listen(PORT, () => {
       console.log('Server is running on port 5000');
     });
 }
