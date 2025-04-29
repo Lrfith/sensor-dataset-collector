@@ -1,4 +1,4 @@
-const { server } = require('./service/server.js');
+const { server } = require('./service/server');
 
 async function startApp() {
     try {
