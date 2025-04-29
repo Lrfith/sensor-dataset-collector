@@ -12,14 +12,20 @@
   },
   "license": "ISC",
   "author": "Lake",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "nodemon index.js",
+    "dev": "node index.js"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.3.0",
+    "ml-random-forest": "^2.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.0"
   }
 }
